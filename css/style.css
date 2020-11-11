@@ -1,0 +1,94 @@
+
+body{
+    background: #f0f0f0;
+    text-align:center;
+}
+nav ul{
+    display: inline-block;/*bloc ligne horizontal*/
+    list-style-type:none;/*pas de style*/
+}
+nav li{
+display:inline-block;
+width: 100px;
+height: 40;
+margin: 0;
+padding: 0;
+border: right 1px black;
+    }
+
+header{
+    text-align: right;
+    padding-right: 8px; 
+}
+
+article{
+    text-align: left;
+    /*texte article aligné à gauche*/
+    height: 80%;/*80% pour que ça occupe pas toute la hauteur de la section*/
+    margin: 8px;
+    /*marge article entre la fin du texte et le bord*/
+}
+
+a{/*formatage des liens*/
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color:white;
+    background-color: #dddddd;
+    
+}
+
+nav {
+    text-align: center;
+}
+
+img {    
+float: left;/*placement à gauche*/ 
+display: inline;/*sur une ligne*/
+height: 100%;/*prend toute la hauteur de la section*/
+margin-right: 5% /*marge autour de l'image*/
+;
+}
+
+section
+{width: 700px;
+    height: 350px;
+    margin: 20px; /*marge pour laisser un espace avec la prochaine section*/
+    padding: 0px;
+    display: inline-block;
+    background-color:white;
+} 
+
+button
+{
+    align-self: center;
+    /*boutons précédent et suivant du bas de page centrés*/
+    border: none;
+    background-color: #dddddd;/*couleur arrière plan*/
+    font-weight: bold;
+    color:white;
+    padding:8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+a.a1{/*formatage lienbouton catégorie a1*/
+    float: left;
+    border: 0;
+    margin: 4px; /*marge pour ne pas coller autour de la forme*/
+    padding: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color:rgb(17, 16, 16);
+}
+
+a.a2{/*formatage lien a2*/
+    background-color: #f0f0f0;
+    color: black;
+    display: inline;
+
+}
+
+hr{ /*trait du bas*/
+    width: 700px;
+}
